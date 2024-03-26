@@ -6,6 +6,7 @@ setInterval(function () {
 	showTime();
 }, 1000);
 
+// Keep count of deleted items
 var deleteCount = 0;
 
 
