@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      <h1 class="title">Hello World! </h1>
+      <p id="currentTime"></p>
+      <script src="script1.js"></script>
+
+      <div class="margine">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" placeholder="Enter first name">
+        <label style="margin-left: 5px;" for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter email">
+        <button onclick="addUser()">Add User</button>
+    </div>
+      <table id="dataTable" class="table">
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>First Name</th>
+            <th>Email</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Rows will be added dynamically based on data -->
+          <tr>
+            <td>1</td>
+            <td>John</td>
+            <td>john@example.com</td>
+            <td>Edit / Delete</td>
+          </tr>
+        </tbody>
+      </table>
+      <p id="1"></p>
+
+      <button onclick="clearLocalStorage()">Clear LocalStorage</button>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+body{
+    padding: 25px;
+  }
+  .title {
+      color: #5C6AC4;
+  }
+  
+.table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+div
+{
+  margin: 6px;
+}
+
+button
+{
+  margin: 5px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+  
+  /* The popup form - hidden by default */
+  .form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  
+  .action-col
+  {
+     width: 8cm; 
+  }
+
+/* Style for odd rows */
+#dataTable tbody tr:nth-child(odd) {
+  background-color: yellow;
+}
+
+/* Style for even rows */
+#dataTable tbody tr:nth-child(even) {
+  background-color: grey;
+}
