@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h2>Title Test</h2>
+    <label>Result: </label>
+    <span id="txtResult"></span>
+<script>
+        // Define the function to determine odd or even
+function oddOrEven(number) {
+    if (number % 2 === 0) {
+        return "Even";
+    } else {
+        return "Odd";
+    }
+}
+
+// Example usage:
+let number = parseInt(prompt("Enter a number: "));
+let result = oddOrEven(number);
+document.getElementById('txtResult').innerHTML =(`The number ${number} is ${result}.`);
+
+    </script>
+</body>
+</html>
